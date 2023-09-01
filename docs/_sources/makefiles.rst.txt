@@ -7,7 +7,7 @@ MAESTROeX Build System
 Build Process Overview
 ======================
 
-The MAESTROeX build system uses features of GNU make (version 3.81 or
+The MAESTROeX build system uses features of GNU make (version 3.82 or
 later), which is typically the default on systems. The MAESTROeX
 executable is built in the problem’s directory (one of the directories
 under ``SCIENCE/``, ``TEST_PROBLEMS/``, or ``UNIT_TESTS/``). This
@@ -155,7 +155,7 @@ in the problem’s ``GNUmakefile``.
 
    -  ``helmholtz``
 
-   -  ``gamma_law_general``
+   -  ``gamma_law``
 
    -  ``multigamma``
 
@@ -194,8 +194,6 @@ Core MAESTROeX modules
 
 Several modules are included in all MAESTROeX builds by default.
 In addition to the AMReX sources, we also include 
-
--  ``MAESTROeX/constants``
 
 -  ``MAESTROeX/Source``
 
